@@ -3,9 +3,10 @@
         <Name>opal</Name>
         <Packager>
             <Name>Joshua Strobl</Name>
-            <Email>joshua.strobl@outlook.com</Email>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>MPL-1.0</License>
+        <PartOf>programming</PartOf>
         <Summary xml:lang="en">Open Phone Abstraction Library (OPAL)</Summary>
         <Description xml:lang="en">Open Phone Abstraction Library (OPAL) is a C++ multi-platform, multi-protocol library for Fax, Video &amp; Voice over IP and other networks
 </Description>
@@ -20,7 +21,23 @@
         <Files>
             <Path fileType="library">/usr/lib64/lib*.so</Path>
             <Path fileType="library">/usr/lib64/lib*.so.*</Path>
-            <Path fileType="library">/usr/lib64/opal-3.10.10</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/celt_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/g7221_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/g7222_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/g722_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/g726_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/gsm0610_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/gsmamrcodec_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/iLBC_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/ima_adpcm_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/lpc10_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/silk_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/speex_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/video/h261_vic_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/video/h263_ffmpeg_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/video/h264_video_pwplugin_helper</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/video/h264_x264_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/video/mpeg4_ffmpeg_ptplugin.so</Path>
         </Files>
     </Package>
     <Package>
@@ -30,21 +47,21 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="current">opal</Dependency>
+            <Dependency release="2">opal</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="header">/usr/include</Path>
+            <Path fileType="header">/usr/include/</Path>
             <Path fileType="library">/usr/lib64/lib*.a</Path>
-            <Path fileType="data">/usr/lib64/pkgconfig</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/*.pc</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2015-10-25</Date>
+        <Update release="2">
+            <Date>2016-05-12</Date>
             <Version>3.10.10</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
-            <Email>joshua.strobl@outlook.com</Email>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
