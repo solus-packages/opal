@@ -21,23 +21,23 @@
         <Files>
             <Path fileType="library">/usr/lib64/lib*.so</Path>
             <Path fileType="library">/usr/lib64/lib*.so.*</Path>
-            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/celt_ptplugin.so</Path>
-            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/g7221_ptplugin.so</Path>
-            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/g7222_ptplugin.so</Path>
-            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/g722_ptplugin.so</Path>
-            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/g726_ptplugin.so</Path>
-            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/gsm0610_ptplugin.so</Path>
-            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/gsmamrcodec_ptplugin.so</Path>
-            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/iLBC_ptplugin.so</Path>
-            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/ima_adpcm_ptplugin.so</Path>
-            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/lpc10_ptplugin.so</Path>
-            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/silk_ptplugin.so</Path>
-            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/audio/speex_ptplugin.so</Path>
-            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/video/h261_vic_ptplugin.so</Path>
-            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/video/h263_ffmpeg_ptplugin.so</Path>
-            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/video/h264_video_pwplugin_helper</Path>
-            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/video/h264_x264_ptplugin.so</Path>
-            <Path fileType="library">/usr/lib64/opal-3.10.10/codecs/video/mpeg4_ffmpeg_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.11/codecs/audio/celt_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.11/codecs/audio/g7221_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.11/codecs/audio/g7222_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.11/codecs/audio/g722_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.11/codecs/audio/g726_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.11/codecs/audio/gsm0610_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.11/codecs/audio/gsmamrcodec_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.11/codecs/audio/iLBC_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.11/codecs/audio/ima_adpcm_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.11/codecs/audio/lpc10_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.11/codecs/audio/silk_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.11/codecs/audio/speex_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.11/codecs/video/h261_vic_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.11/codecs/video/h263_ffmpeg_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.11/codecs/video/h264_video_pwplugin_helper</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.11/codecs/video/h264_x264_ptplugin.so</Path>
+            <Path fileType="library">/usr/lib64/opal-3.10.11/codecs/video/mpeg4_ffmpeg_ptplugin.so</Path>
         </Files>
     </Package>
     <Package>
@@ -47,7 +47,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="2">opal</Dependency>
+            <Dependency release="3">opal</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
@@ -56,9 +56,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2016-05-12</Date>
-            <Version>3.10.10</Version>
+        <Update release="3">
+            <Date>2017-04-14</Date>
+            <Version>3.10.11</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
