@@ -1,6 +1,6 @@
 name       : opal
 version    : 3.10.11
-release    : 4
+release    : 5
 source     :
     - https://netix.dl.sourceforge.net/project/opalvoip/v3.10%20Luyten/Stable%2011/opal-3.10.11.tar.bz2 : f38e7969e88a28dd9a10a6051315aceecde79d0bbd1a35676868dc5787aed706
 license    : MPL-1.0
@@ -17,9 +17,7 @@ builddeps  :
     - pkgconfig(speex)
     - pkgconfig(x264)
 setup      : |
-    %patch -p1 < $pkgfiles/libav9.patch
-    %patch -p1 < $pkgfiles/libav10.patch
-    %patch -p1 < $pkgfiles/ffmpeg_2.9.patch
+    %apply_patches
     sed -e '/<< mime.PrintContents/ s/mime/(const std::string\&)&/' -i src/im/msrp.cxx
     %configure --disable-static
 build      : |
