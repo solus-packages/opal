@@ -2,8 +2,8 @@
     <Source>
         <Name>opal</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
         </Packager>
         <License>MPL-1.0</License>
         <PartOf>programming</PartOf>
@@ -47,7 +47,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="5">opal</Dependency>
+            <Dependency release="6">opal</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
@@ -56,12 +56,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="5">
-            <Date>2018-01-20</Date>
+        <Update release="6">
+            <Date>2018-05-04</Date>
             <Version>3.10.11</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
