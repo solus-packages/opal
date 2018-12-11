@@ -1,14 +1,8 @@
-libavcodec.so.57
-libavutil.so.55
 libc.so.6
 libcelt0.so.2
 libcrypto.so.1.0.0
-libdl.so.2
-libgcc_s.so.1
 libm.so.6
 libpt.so.2.10.11
-libpthread.so.0
 libspeex.so.1
 libspeexdsp.so.1
 libstdc++.so.6
-libx264.so.155
